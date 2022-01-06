@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	lua_http "github.com/vadv/gopher-lua-libs/http/client/interface"
+	lua_http "github.com/alexjx/gopher-lua-libs/http/client/interface"
 	lua "github.com/yuin/gopher-lua"
 )
 

@@ -1,4 +1,4 @@
-# telegram [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/telegram?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/telegram)
+# telegram [![GoDoc](https://godoc.org/github.com/alexjx/gopher-lua-libs/telegram?status.svg)](https://godoc.org/github.com/alexjx/gopher-lua-libs/telegram)
 
 ## Usage
 

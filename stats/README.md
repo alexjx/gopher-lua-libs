@@ -1,4 +1,4 @@
-# stats [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/stats?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/stats)
+# stats [![GoDoc](https://godoc.org/github.com/alexjx/gopher-lua-libs/stats?status.svg)](https://godoc.org/github.com/alexjx/gopher-lua-libs/stats)
 
 ## Usage
 

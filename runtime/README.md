@@ -1,4 +1,4 @@
-# runtime [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/runtime?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/runtime)
+# runtime [![GoDoc](https://godoc.org/github.com/alexjx/gopher-lua-libs/runtime?status.svg)](https://godoc.org/github.com/alexjx/gopher-lua-libs/runtime)
 
 ## Usage
 

@@ -3,8 +3,8 @@ package plugin
 import (
 	"testing"
 
-	ioutil "github.com/vadv/gopher-lua-libs/ioutil"
-	time "github.com/vadv/gopher-lua-libs/time"
+	ioutil "github.com/alexjx/gopher-lua-libs/ioutil"
+	time "github.com/alexjx/gopher-lua-libs/time"
 	lua "github.com/yuin/gopher-lua"
 )
 

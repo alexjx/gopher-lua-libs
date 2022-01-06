@@ -3,9 +3,9 @@ package chef_test
 import (
 	"testing"
 
-	chef "github.com/vadv/gopher-lua-libs/chef"
-	http "github.com/vadv/gopher-lua-libs/http"
-	inspect "github.com/vadv/gopher-lua-libs/inspect"
+	chef "github.com/alexjx/gopher-lua-libs/chef"
+	http "github.com/alexjx/gopher-lua-libs/http"
+	inspect "github.com/alexjx/gopher-lua-libs/inspect"
 	lua "github.com/yuin/gopher-lua"
 )
 

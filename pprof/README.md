@@ -1,4 +1,4 @@
-# pprof [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/pprof?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/pprof)
+# pprof [![GoDoc](https://godoc.org/github.com/alexjx/gopher-lua-libs/pprof?status.svg)](https://godoc.org/github.com/alexjx/gopher-lua-libs/pprof)
 
 ## Usage
 

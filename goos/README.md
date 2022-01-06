@@ -1,4 +1,4 @@
-# goos [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/goos?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/goos)
+# goos [![GoDoc](https://godoc.org/github.com/alexjx/gopher-lua-libs/goos?status.svg)](https://godoc.org/github.com/alexjx/gopher-lua-libs/goos)
 
 ## Usage
 

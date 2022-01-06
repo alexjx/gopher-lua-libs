@@ -1,8 +1,8 @@
-# chef [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/chef?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/chef)
+# chef [![GoDoc](https://godoc.org/github.com/alexjx/gopher-lua-libs/chef?status.svg)](https://godoc.org/github.com/alexjx/gopher-lua-libs/chef)
 
 ## Functions
 
-- `client(client_name, path_to_file_with_key, chef_url, http_client_ud)` - returns chef client instance for further usage. Required [http](https://github.com/vadv/gopher-lua-libs/tree/master/http) client instance as `http_client_ud`. Please note that you must specify last slash in `chef_url`.
+- `client(client_name, path_to_file_with_key, chef_url, http_client_ud)` - returns chef client instance for further usage. Required [http](https://github.com/alexjx/gopher-lua-libs/tree/master/http) client instance as `http_client_ud`. Please note that you must specify last slash in `chef_url`.
 
 ## Methods
 ### client

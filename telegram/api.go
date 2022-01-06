@@ -4,8 +4,8 @@ package telegram
 import (
 	"encoding/json"
 
-	lua_http "github.com/vadv/gopher-lua-libs/http/client/interface"
-	lua_json "github.com/vadv/gopher-lua-libs/json"
+	lua_http "github.com/alexjx/gopher-lua-libs/http/client/interface"
+	lua_json "github.com/alexjx/gopher-lua-libs/json"
 	lua "github.com/yuin/gopher-lua"
 )
 

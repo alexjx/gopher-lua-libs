@@ -12,7 +12,7 @@ import (
 	"os"
 	"strconv"
 
-	lua_http "github.com/vadv/gopher-lua-libs/http/client/interface"
+	lua_http "github.com/alexjx/gopher-lua-libs/http/client/interface"
 
 	multipartstreamer "github.com/technoweenie/multipartstreamer"
 	lua "github.com/yuin/gopher-lua"

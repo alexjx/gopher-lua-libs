@@ -1,4 +1,4 @@
-# inspect [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/inspect?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/inspect)
+# inspect [![GoDoc](https://godoc.org/github.com/alexjx/gopher-lua-libs/inspect?status.svg)](https://godoc.org/github.com/alexjx/gopher-lua-libs/inspect)
 
 ## Usage
 

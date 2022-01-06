@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/vadv/gopher-lua-libs/http"
-	prometheus "github.com/vadv/gopher-lua-libs/prometheus/client"
-	"github.com/vadv/gopher-lua-libs/strings"
-	"github.com/vadv/gopher-lua-libs/time"
+	"github.com/alexjx/gopher-lua-libs/http"
+	prometheus "github.com/alexjx/gopher-lua-libs/prometheus/client"
+	"github.com/alexjx/gopher-lua-libs/strings"
+	"github.com/alexjx/gopher-lua-libs/time"
 	lua "github.com/yuin/gopher-lua"
 )
 

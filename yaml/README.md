@@ -1,4 +1,4 @@
-# yaml [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/yaml?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/yaml)
+# yaml [![GoDoc](https://godoc.org/github.com/alexjx/gopher-lua-libs/yaml?status.svg)](https://godoc.org/github.com/alexjx/gopher-lua-libs/yaml)
 
 ## Usage
 

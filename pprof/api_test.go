@@ -3,9 +3,9 @@ package pprof_test
 import (
 	"testing"
 
-	lua_http "github.com/vadv/gopher-lua-libs/http"
-	lua_pprof "github.com/vadv/gopher-lua-libs/pprof"
-	lua_time "github.com/vadv/gopher-lua-libs/time"
+	lua_http "github.com/alexjx/gopher-lua-libs/http"
+	lua_pprof "github.com/alexjx/gopher-lua-libs/pprof"
+	lua_time "github.com/alexjx/gopher-lua-libs/time"
 
 	lua "github.com/yuin/gopher-lua"
 )

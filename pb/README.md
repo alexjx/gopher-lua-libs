@@ -1,4 +1,4 @@
-# pb [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/strings?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/pb)
+# pb [![GoDoc](https://godoc.org/github.com/alexjx/gopher-lua-libs/strings?status.svg)](https://godoc.org/github.com/alexjx/gopher-lua-libs/pb)
 
 ## Usage
 

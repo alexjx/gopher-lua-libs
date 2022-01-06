@@ -1,4 +1,4 @@
-# log [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/log?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/log)
+# log [![GoDoc](https://godoc.org/github.com/alexjx/gopher-lua-libs/log?status.svg)](https://godoc.org/github.com/alexjx/gopher-lua-libs/log)
 
 ## Common usage
 

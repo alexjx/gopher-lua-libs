@@ -1,4 +1,4 @@
-# cert_util [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/cert_util?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/cert_util)
+# cert_util [![GoDoc](https://godoc.org/github.com/alexjx/gopher-lua-libs/cert_util?status.svg)](https://godoc.org/github.com/alexjx/gopher-lua-libs/cert_util)
 
 ## Functions
 

@@ -3,9 +3,9 @@
 package http
 
 import (
-	client "github.com/vadv/gopher-lua-libs/http/client"
-	server "github.com/vadv/gopher-lua-libs/http/server"
-	util "github.com/vadv/gopher-lua-libs/http/util"
+	client "github.com/alexjx/gopher-lua-libs/http/client"
+	server "github.com/alexjx/gopher-lua-libs/http/server"
+	util "github.com/alexjx/gopher-lua-libs/http/util"
 	lua "github.com/yuin/gopher-lua"
 )
 

@@ -3,7 +3,7 @@ package log
 import (
 	"testing"
 
-	ioutil "github.com/vadv/gopher-lua-libs/ioutil"
+	ioutil "github.com/alexjx/gopher-lua-libs/ioutil"
 	lua "github.com/yuin/gopher-lua"
 )
 

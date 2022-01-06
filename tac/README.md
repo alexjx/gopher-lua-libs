@@ -1,4 +1,4 @@
-# tac [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/tac?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/tac)
+# tac [![GoDoc](https://godoc.org/github.com/alexjx/gopher-lua-libs/tac?status.svg)](https://godoc.org/github.com/alexjx/gopher-lua-libs/tac)
 
 ## Usage
 

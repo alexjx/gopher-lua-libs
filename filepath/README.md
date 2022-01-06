@@ -1,4 +1,4 @@
-# filepath [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/filepath?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/filepath)
+# filepath [![GoDoc](https://godoc.org/github.com/alexjx/gopher-lua-libs/filepath?status.svg)](https://godoc.org/github.com/alexjx/gopher-lua-libs/filepath)
 
 ## Usage
 

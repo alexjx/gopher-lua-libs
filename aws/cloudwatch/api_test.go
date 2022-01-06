@@ -3,7 +3,7 @@ package cloudwatch
 import (
 	"testing"
 
-	"github.com/vadv/gopher-lua-libs/inspect"
+	"github.com/alexjx/gopher-lua-libs/inspect"
 
 	lua "github.com/yuin/gopher-lua"
 )

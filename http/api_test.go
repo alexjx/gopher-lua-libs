@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	lua_http "github.com/vadv/gopher-lua-libs/http"
-	inspect "github.com/vadv/gopher-lua-libs/inspect"
-	plugin "github.com/vadv/gopher-lua-libs/plugin"
-	lua_time "github.com/vadv/gopher-lua-libs/time"
+	lua_http "github.com/alexjx/gopher-lua-libs/http"
+	inspect "github.com/alexjx/gopher-lua-libs/inspect"
+	plugin "github.com/alexjx/gopher-lua-libs/plugin"
+	lua_time "github.com/alexjx/gopher-lua-libs/time"
 	lua "github.com/yuin/gopher-lua"
 )
 

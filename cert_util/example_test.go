@@ -3,7 +3,7 @@ package cert_util
 import (
 	"log"
 
-	"github.com/vadv/gopher-lua-libs/time"
+	"github.com/alexjx/gopher-lua-libs/time"
 	lua "github.com/yuin/gopher-lua"
 )
 

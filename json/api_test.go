@@ -3,7 +3,7 @@ package json
 import (
 	"testing"
 
-	inspect "github.com/vadv/gopher-lua-libs/inspect"
+	inspect "github.com/alexjx/gopher-lua-libs/inspect"
 	lua "github.com/yuin/gopher-lua"
 )
 

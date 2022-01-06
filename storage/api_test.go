@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	inspect "github.com/vadv/gopher-lua-libs/inspect"
-	time "github.com/vadv/gopher-lua-libs/time"
+	inspect "github.com/alexjx/gopher-lua-libs/inspect"
+	time "github.com/alexjx/gopher-lua-libs/time"
 	lua "github.com/yuin/gopher-lua"
 )
 

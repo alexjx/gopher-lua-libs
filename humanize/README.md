@@ -1,4 +1,4 @@
-# humanize [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/humanize?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/humanize)
+# humanize [![GoDoc](https://godoc.org/github.com/alexjx/gopher-lua-libs/humanize?status.svg)](https://godoc.org/github.com/alexjx/gopher-lua-libs/humanize)
 
 ## Usage
 

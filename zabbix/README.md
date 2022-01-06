@@ -1,4 +1,4 @@
-# zabbix [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/zabbix?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/zabbix)
+# zabbix [![GoDoc](https://godoc.org/github.com/alexjx/gopher-lua-libs/zabbix?status.svg)](https://godoc.org/github.com/alexjx/gopher-lua-libs/zabbix)
 
 ## Usage
 

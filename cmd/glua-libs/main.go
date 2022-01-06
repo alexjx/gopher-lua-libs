@@ -12,7 +12,7 @@ import (
 	lua "github.com/yuin/gopher-lua"
 	parse "github.com/yuin/gopher-lua/parse"
 
-	libs "github.com/vadv/gopher-lua-libs"
+	libs "github.com/alexjx/gopher-lua-libs"
 )
 
 func main() {

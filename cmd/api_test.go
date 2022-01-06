@@ -3,7 +3,7 @@ package cmd
 import (
 	"testing"
 
-	runtime "github.com/vadv/gopher-lua-libs/runtime"
+	runtime "github.com/alexjx/gopher-lua-libs/runtime"
 	lua "github.com/yuin/gopher-lua"
 )
 

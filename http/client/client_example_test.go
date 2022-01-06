@@ -3,7 +3,7 @@ package http_test
 import (
 	"log"
 
-	http "github.com/vadv/gopher-lua-libs/http"
+	http "github.com/alexjx/gopher-lua-libs/http"
 	lua "github.com/yuin/gopher-lua"
 )
 

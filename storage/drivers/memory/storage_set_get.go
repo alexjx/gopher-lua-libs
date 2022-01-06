@@ -3,7 +3,7 @@ package storage
 import (
 	"time"
 
-	lua_json "github.com/vadv/gopher-lua-libs/json"
+	lua_json "github.com/alexjx/gopher-lua-libs/json"
 
 	lua "github.com/yuin/gopher-lua"
 )

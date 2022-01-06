@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	lua_json "github.com/vadv/gopher-lua-libs/json"
-	interfaces "github.com/vadv/gopher-lua-libs/storage/drivers/interfaces"
+	lua_json "github.com/alexjx/gopher-lua-libs/json"
+	interfaces "github.com/alexjx/gopher-lua-libs/storage/drivers/interfaces"
 
 	lua "github.com/yuin/gopher-lua"
 )
