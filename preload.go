@@ -2,6 +2,7 @@ package libs
 
 import (
 	cloudwatch "github.com/alexjx/gopher-lua-libs/aws/cloudwatch"
+	"github.com/alexjx/gopher-lua-libs/base64"
 	cert_util "github.com/alexjx/gopher-lua-libs/cert_util"
 	chef "github.com/alexjx/gopher-lua-libs/chef"
 	cmd "github.com/alexjx/gopher-lua-libs/cmd"
@@ -21,6 +22,7 @@ import (
 	prometheus "github.com/alexjx/gopher-lua-libs/prometheus/client"
 	regexp "github.com/alexjx/gopher-lua-libs/regexp"
 	runtime "github.com/alexjx/gopher-lua-libs/runtime"
+	"github.com/alexjx/gopher-lua-libs/shellescape"
 	"github.com/alexjx/gopher-lua-libs/stats"
 	storage "github.com/alexjx/gopher-lua-libs/storage"
 	strings "github.com/alexjx/gopher-lua-libs/strings"
@@ -38,6 +40,7 @@ import (
 
 // Preload preload all gopher lua packages
 func Preload(L *lua.LState) {
+	base64.Preload(L)
 	time.Preload(L)
 	strings.Preload(L)
 	filepath.Preload(L)
@@ -55,6 +58,7 @@ func Preload(L *lua.LState) {
 	db.Preload(L)
 	cert_util.Preload(L)
 	runtime.Preload(L)
+	shellescape.Preload(L)
 	telegram.Preload(L)
 	zabbix.Preload(L)
 	pprof.Preload(L)

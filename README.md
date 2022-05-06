@@ -16,6 +16,7 @@ go get github.com/alexjx/gopher-lua-libs
 
 ## Index
 
+* [base64](/base64) [encoding/base64](https://pkg.go.dev/encoding/base64) api
 * [cloudwatch](/aws/cloudwatch) aws cloudwatch log access
 * [cert_util](/cert_util) monitoring ssl certs
 * [chef](/chef) chef client api
@@ -36,6 +37,7 @@ go get github.com/alexjx/gopher-lua-libs
 * [regexp](/regexp) regexp port
 * [runtime](/runtime) runtime port
 * [pb](/pb) [https://github.com/cheggaaa/pb](https://github.com/cheggaaa/pb) port (v3)
+* [shellescape](/shellescape) shellescape <https://github.com/alessio/shellescape> port
 * [stats](/stats) stats [https://github.com/montanaflynn/stats](https://github.com/montanaflynn/stats) port
 * [storage](/storage) package for store persist data and share values between lua states
 * [strings](/strings) strings port (utf supported)

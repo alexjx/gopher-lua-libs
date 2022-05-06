@@ -1,15 +1,15 @@
-package ioutil
+package shellescape
 
 import (
 	lua "github.com/yuin/gopher-lua"
 )
 
-// Preload adds ioutil to the given Lua state's package.preload table. After it
+// Preload adds json to the given Lua state's package.preload table. After it
 // has been preloaded, it can be loaded using require:
 //
-//  local ioutil = require("ioutil")
+//  local json = require("json")
 func Preload(L *lua.LState) {
-	L.PreloadModule("ioutil", Loader)
+	L.PreloadModule("shellescape", Loader)
 }
 
 // Loader is the module loader function.
@@ -21,8 +21,7 @@ func Loader(L *lua.LState) int {
 }
 
 var api = map[string]lua.LGFunction{
-	"read_file":  ReadFile,
-	"write_file": WriteFile,
-	"copy":       Copy,
-	"copyn":      CopyN,
+	"quote":         Quote,
+	"quote_command": QuoteCommand,
+	"strip_unsafe":  StripUnsafe,
 }

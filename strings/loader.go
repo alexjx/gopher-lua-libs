@@ -14,6 +14,9 @@ func Preload(L *lua.LState) {
 
 // Loader is the module loader function.
 func Loader(L *lua.LState) int {
+	registerStringsReader(L)
+	registerStringsBuilder(L)
+
 	t := L.NewTable()
 	L.SetFuncs(t, api)
 	L.Push(t)
@@ -29,4 +32,6 @@ var api = map[string]lua.LGFunction{
 	"has_prefix":  HasPrefix,
 	"has_suffix":  HasSuffix,
 	"contains":    Contains,
+	"new_reader":  newStringsReader,
+	"new_builder": newStringsBuilder,
 }
