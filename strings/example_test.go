@@ -29,17 +29,16 @@ func ExampleSplit() {
 func ExampleFields() {
 	state := lua.NewState()
 	Preload(state)
-	inspect.Preload(state)
 	source := `
 	local strings = require("strings")
 	local result = strings.fields("a b c d")
-    print(inspect(result, {newline="", indent=""}))
+    print(table.concat(result, ","))
 `
 	if err := state.DoString(source); err != nil {
 		log.Fatal(err.Error())
 	}
 	// Output:
-	// a b c d
+	// a,b,c,d
 }
 
 // strings.has_prefix(string, prefix)
