@@ -33,4 +33,6 @@ var api = map[string]lua.LGFunction{
 	"contains":    Contains,
 	"new_reader":  newStringsReader,
 	"new_builder": newStringsBuilder,
+	// TODO(alexjx): Add this binding to fix the tests
+	//"fields":      Fields,
 }

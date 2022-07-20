@@ -1,3 +1,4 @@
+local inspect = require("inspect")
 local strings = require("strings")
 
 local str = "hello world"
@@ -41,4 +42,29 @@ function TestBuilder(t)
     builder:write("foo", "bar", 123)
     local got = builder:string()
     assert(got == "foobar123", string.format("'%s' ~= '%s'", got, "foobar123"))
+end
+
+function TestFields(t)
+    tests = {
+        {
+            name="single word",
+            input="foo",
+            expected={"foo"},
+        },
+        {
+            name="two words",
+            input="hello world",
+            expected={"hello", "world"},
+        },
+    }
+
+    for _, tt in ipairs(tests) do
+        t:Run(tt.name, function(t)
+            fields = strings.fields(tt.input)
+            inspected_fields = inspect(fields)
+            inspected_expected = inspect(tt.expected)
+            assert(inspected_fields == inspected_expected,
+                string.format("wanted %s; got %s", inspected_expected, inspected_fields))
+        end)
+    end
 end
